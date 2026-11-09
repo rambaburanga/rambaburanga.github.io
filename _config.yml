@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+title                    : # "Your Name / Site Title"
 title_separator          : "-"
 name                     : &name "Ram Babu"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,13 +24,13 @@ repository               : "rambaburanga/rambaburanga.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Ram Babu"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Ex-Nvidia | IIT Bombay"
+  location         : # "Earth"
+  employer         : "Individual Researcher"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "rambabu1993ism@gmail.com" 
 
   # Academic websites
   academia         : # URL
@@ -38,10 +38,10 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : # "https://orcid.org/yourorcidurl"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : ram-babu-a3b1384b # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
