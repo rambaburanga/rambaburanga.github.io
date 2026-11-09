@@ -80,3 +80,9 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
+/* Align navigation links with the main page content */
+@include breakpoint($large) {
+  .masthead__menu .visible-links > li:nth-child(2) {
+    margin-left: 84px;
+  }
+}
