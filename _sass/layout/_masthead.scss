@@ -65,6 +65,12 @@
     padding-right: 2em;
     font-weight: 700;
   }
+  /* Align navigation links with main page content */
+  @media (min-width: 1024px) {
+    #site-nav .visible-links > li:nth-child(2) {
+     margin-left: clamp(0px, 7.6vw, 84px);
+   }
+ }
 }
 
 .masthead__menu-item.selected a {
@@ -79,10 +85,4 @@
   color: var(--global-text-color);
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
-}
-/* Align navigation links with the main page content */
-@include breakpoint($large) {
-  .masthead__menu .visible-links > li:nth-child(2) {
-    margin-left: 84px;
-  }
 }
